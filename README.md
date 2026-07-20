@@ -37,8 +37,11 @@ My motivation behind this project was to step away from breadboards and create a
 
 ---
 
-👤 Author & Journey
-Designed with passion as part of my journey into hardware engineering, electronics, embedded systems, and robotics.
-•	GitHub: @jedrekdomanski
-•	Project Status: Active / Tested Prototype
-Feel free to fork, star ⭐️, or open an issue if you have suggestions for improvement!
+## 👤 Author & Journey
+
+Designed with passion as part of my journey into hardware engineering, embedded systems, and robotics.
+
+* **GitHub:** [@jedrekdomanski](https://github.com/jedrekdomanski)
+* **Project Status:** Active / Tested Prototype
+
+*Feel free to fork, star ⭐️, or open an issue if you have suggestions for improvement!*
