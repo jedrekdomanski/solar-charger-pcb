@@ -3,6 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![KiCad Version](https://img.shields.io/badge/KiCad-v8.0+-blue.svg)](https://www.kicad.org/)
 
+![Solar Charger PCB Board](_OL_6112.jpg)
 An open-source custom PCB designed to power microcontrollers efficiently using solar energy and Li-Ion battery management.
 
 ---
