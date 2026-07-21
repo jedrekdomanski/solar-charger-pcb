@@ -1089,7 +1089,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 119.38) (xy 157.48 119.38)
+			(xy 157.48 119.38) (xy 168.91 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1106,6 +1106,16 @@
 			(type default)
 		)
 		(uuid "0a7579c7-04d9-45bc-84c2-6733fd7127ed")
+	)
+	(wire
+		(pts
+			(xy 134.62 120.65) (xy 134.62 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c133fb7-56e7-40a9-b03d-640f116f440c")
 	)
 	(wire
 		(pts
@@ -1169,6 +1179,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 125.73) (xy 125.73 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27f744f9-d174-43a8-8e32-3964042ac7a0")
+	)
+	(wire
+		(pts
 			(xy 92.71 110.49) (xy 101.6 110.49)
 		)
 		(stroke
@@ -1179,13 +1199,23 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 124.46) (xy 161.29 124.46)
+			(xy 157.48 124.46) (xy 168.91 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "45238701-391a-40b3-a465-8b3d157c3546")
+	)
+	(wire
+		(pts
+			(xy 168.91 124.46) (xy 168.91 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49fb1a3f-6648-4c94-83a9-71afb269ff1f")
 	)
 	(wire
 		(pts
@@ -1206,6 +1236,26 @@
 			(type default)
 		)
 		(uuid "612c7a02-02db-48f1-bcff-27e53b21251b")
+	)
+	(wire
+		(pts
+			(xy 125.73 118.11) (xy 125.73 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "645505c6-70d8-4f0f-b53e-ff9ce1b30c2d")
+	)
+	(wire
+		(pts
+			(xy 134.62 123.19) (xy 134.62 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68563deb-330f-4391-a24b-ec51ee8e5f7b")
 	)
 	(wire
 		(pts
@@ -1279,6 +1329,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 125.73) (xy 125.73 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f003ac6-3918-4371-af94-cfa199a5d1ae")
+	)
+	(wire
+		(pts
 			(xy 134.62 120.65) (xy 139.7 120.65)
 		)
 		(stroke
@@ -1299,6 +1359,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 119.38) (xy 168.91 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c082391d-00a0-46aa-9b3b-42154222475d")
+	)
+	(wire
+		(pts
 			(xy 115.57 118.11) (xy 109.22 118.11)
 		)
 		(stroke
@@ -1309,13 +1379,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 123.19) (xy 161.29 124.46)
+			(xy 134.62 118.11) (xy 125.73 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dfc915c9-1d35-4c8b-abd5-ad20a3bae0dd")
+		(uuid "e1b55a60-9ec4-42e4-8a48-50b10daae381")
 	)
 	(wire
 		(pts
@@ -1336,16 +1406,6 @@
 			(type default)
 		)
 		(uuid "f0e64479-d38a-4cf3-a496-c3a1c0d90ed4")
-	)
-	(wire
-		(pts
-			(xy 161.29 120.65) (xy 161.29 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6bd66b6-c241-4101-97f6-3633ba1315be")
 	)
 	(label "GND_OUT"
 		(at 83.82 125.73 0)
@@ -1812,7 +1872,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 134.62 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -2327,7 +2387,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 129.54 123.19 180)
+		(at 130.81 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2337,7 +2397,7 @@
 		(dnp no)
 		(uuid "ba7713a5-0a47-41d8-b6c1-b157b7ce3414")
 		(property "Reference" "J2"
-			(at 129.54 114.3 0)
+			(at 130.81 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2347,7 +2407,7 @@
 			)
 		)
 		(property "Value" "BATTERY"
-			(at 129.54 116.84 0)
+			(at 130.81 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2356,8 +2416,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical"
-			(at 129.54 123.19 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 130.81 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2368,7 +2428,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 123.19 0)
+			(at 130.81 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2379,7 +2439,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 129.54 123.19 0)
+			(at 130.81 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2516,7 +2576,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 101.6 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2566,7 +2626,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 166.37 120.65 0)
+		(at 163.83 123.19 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2576,7 +2636,7 @@
 		(dnp no)
 		(uuid "e6691b4b-d625-4977-9f18-5825626c269d")
 		(property "Reference" "J1"
-			(at 166.37 132.08 0)
+			(at 163.83 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2586,7 +2646,7 @@
 			)
 		)
 		(property "Value" "SOLAR_IN"
-			(at 165.1 127 0)
+			(at 165.1 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2595,8 +2655,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53047-0210_1x02_P1.25mm_Vertical"
-			(at 166.37 120.65 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 163.83 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2607,7 +2667,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 120.65 0)
+			(at 163.83 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2618,7 +2678,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 166.37 120.65 0)
+			(at 163.83 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
