@@ -2499,6 +2499,17 @@
 			(uuid "3e33ac4a-06bf-4f45-b6d3-e1cc0e721d91")
 		)
 		(embedded_fonts no)
+		(model "/Users/jedrek/Documents/KiCad/10.0/3dmodels/TP4056 Mini.STEP"
+			(offset
+				(xyz 13 10.5 21.5)
+			)
+			(scale
+				(xyz 1.1 1.6 1)
+			)
+			(rotate
+				(xyz 180 -0 -90)
+			)
+		)
 	)
 	(footprint "Package_TO_SOT_THT:TO-92_Inline"
 		(layer "F.Cu")
